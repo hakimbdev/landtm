@@ -21,9 +21,6 @@ const Header: React.FC = () => {
             <a href="#how-it-works" className="text-gray-600 hover:text-blue-600 transition-colors">How It Works</a>
             <a href="#audience" className="text-gray-600 hover:text-blue-600 transition-colors">For You</a>
             <a href="#impact" className="text-gray-600 hover:text-blue-600 transition-colors">Impact</a>
-            <a href="#contact" className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">
-              Get Started
-            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -43,9 +40,6 @@ const Header: React.FC = () => {
               <a href="#how-it-works" className="text-gray-600 hover:text-blue-600 transition-colors" onClick={toggleMenu}>How It Works</a>
               <a href="#audience" className="text-gray-600 hover:text-blue-600 transition-colors" onClick={toggleMenu}>For You</a>
               <a href="#impact" className="text-gray-600 hover:text-blue-600 transition-colors" onClick={toggleMenu}>Impact</a>
-              <a href="#contact" className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors text-center" onClick={toggleMenu}>
-                Get Started
-              </a>
             </div>
           </nav>
         )}
